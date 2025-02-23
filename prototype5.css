@@ -1,0 +1,653 @@
+
+.Expedia{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    margin-right:30px;
+   
+
+}
+.header{
+    display: flex;
+    text-align: justify;
+    
+}
+#img{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.button{
+    border-style: none;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom:2px;
+    
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 1px;
+    
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.getbutton{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 40px 0px 40px;
+    font-size: 16px;
+    font-weight:bold;
+    color: #000;
+    background: transparent;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top:10px;
+    margin-left: 300px;
+    border-width: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+#div{
+    display: flex;
+    width: 100%;
+    
+}
+nav h1:hover{
+    color: blue;
+}
+button:hover{
+    color: blue;
+}
+
+#browserimg{
+    margin-top: 25px;
+}
+.section{
+    display: flex;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+#commentimg{
+    margin-top: 22px;
+
+}
+
+
+.shoptravel{
+    display: flex;
+    width: 120px;
+    height: 20px;
+    margin-top: 25px;
+    border-color: white;
+    font-size: 15px;
+    padding-right: 0px;
+}
+.hover{
+    color: blue;
+}
+.st{
+    font-size: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+}
+.div1{
+    display: flex;
+    margin-top:5px ;
+    margin-left: 25px;
+}
+.signin{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-top: 25px;
+}
+.maindiv{
+    border-width:1px;
+    border-style: solid;
+    border-radius: 20px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+
+}
+.div2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight:normal;
+}
+.div2 a{
+    text-decoration: none;
+    color: black;
+
+}
+.div2 a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+.tb{
+    border-radius: 6px;
+    border-width: 1px;
+    border: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 17px;
+}
+.date{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tv{
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wh{
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.search{
+  margin-top: 5px; 
+  margin-left: 20px;
+  border:none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+.checkbox{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.div4{
+    border-width:1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    font-size:9px;
+    background-color: rgb(22, 22, 63);
+    color: white;
+    padding-bottom: 10px;
+    display: flex;
+}
+#search1{
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    margin-left:400px;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    padding-top:1px ;
+    padding-bottom:1px ;
+    padding-left:10px ;
+    padding-right:10px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3431e7;
+}
+.Expedia1{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right:30px;
+    cursor:auto;
+    display: flex;
+    
+}
+#taglogo{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    padding-left:10px ;
+    padding-right:10px ;
+    justify-content: space-between;   
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 130px;
+    padding-right: 120px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    
+}
+.text1{
+    margin-left: 20px;
+}
+.image{
+    
+    border-radius: 20px;
+    width:227px;
+    height: 302px;
+}
+.div5{
+    display: flex;
+   padding-left:140px ;
+   padding-right:500px;
+    
+
+}
+.Expedia2{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-right:30px;
+    cursor:auto;
+    display: flex;
+    
+}
+.div6{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img2{
+    height: 514px;
+    width: 1200px;
+    margin-left: 156px;
+    border-radius: 30px;
+}
+.container2{
+    position:relative;
+    
+}
+.textblock{
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family:Playfair Display;
+}
+#search2{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left:20px;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left:15px ;
+    padding-right:15px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3431e7;
+}
+.div7{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+    margin-left:150px; 
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight:normal;
+}
+.div7 a{
+    text-decoration: none;
+    color: black;
+}
+.div7 a:hover{
+    text-decoration: underline;
+    color: #3431e7;
+}
+.Expedia3{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-right:30px;
+    cursor:auto;
+    display: flex;
+}
+.div8{
+    display: flex;
+   padding-left:40px;
+   padding-right:0px;
+   overflow: scroll;
+   height: 300px;
+   color: black;
+}
+.div8 a{
+    color: black;
+    text-decoration: none;
+}
+.div8 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.div9{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container3{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin-left: 0px;
+    margin-right:10px;
+    display: flex;
+    padding-left:0px ;
+    padding-right:0px ;
+    justify-content: space-between;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.text2{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 130px;
+    padding-right: 120px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    font-weight: 300;
+}
+
+
+.text3{
+    margin-left: 20px;
+}
+.image2{
+    border-radius: 20px 20px 0px 0px;
+    width:250px;
+    height: 150px;
+}
+.div10{
+    display: flex;
+    flex-direction: row;
+    width:21%;
+    justify-content: center;
+    margin-left:100px; 
+    font-size: 12px;
+    font-weight:normal;
+}
+.div11{
+    overflow: scroll;
+    margin-left: 60px;
+    height: 250px;
+    
+}
+.container4 {
+    max-width: 800px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+}
+
+.hotel-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 500px; 
+    margin-left: 50px;
+}
+
+.column {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column li {
+    margin-bottom: 10px;
+}
+
+.column a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+.container5{
+    display: flex;
+    position:relative;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    height: 266px;
+    width: 1200px;
+    margin-left: 150px;
+    
+}
+.img3{
+    height: 266px;
+    width: 400px;
+    border-radius: 30px 0 0 30px;
+}
+.h12{
+   margin-left: 20px;
+}
+.p2{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.h4{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.Expedia4{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding-bottom: 2px;
+    margin-right:30px;
+    font-size: 10px;
+}
+.img4{
+    height: 150px;
+    width: 150px;
+    margin-top: 55px;
+    margin-right: 20px;
+   
+}
+
+.footer{
+    text-align:left ;
+    font-size: 13px;
+    height: 500px;
+    width: 100%;
+    background-color: #9ae6ff;
+    border-radius: 30px 30px 0px 0px;
+    
+    
+}
+.Expedia5{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding-bottom: 2px;
+    margin-right:30px;
+    font-size: 25px;
+}
+.h13{
+    
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.p3{
+    text-align: center;
+    padding-top: 25px;
+}
+.hotel-list2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px; 
+    margin-left: 50px;
+}
+.column2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.column2 li {
+    margin-bottom: 10px;
+}
+
+.column2 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+.column2 a:hover {
+    text-decoration: underline;
+}
+.p4{
+    font-size:15px ;
+    font-weight: bolder;
+}
+.div6:hover{
+    transform: scale(1.06);
+    
+}
+.textblock:hover{
+    transform: scale(1.06);
+}
+.div9:hover{
+    transform: scale(1.04);
+}
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+.signin a:hover{
+    color: #008CBA;
+
+}
+.image:hover{
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.25);
+
+}
+.option{
+    width: 100px;
+
+}
+
+
+
+
